@@ -1,3 +1,4 @@
+
 import Foundation
 
 class Square {
@@ -6,7 +7,7 @@ class Square {
     var area: Double {
         return lengthOfSide * lengthOfSide
     }
-
+    
     init(topLeftCorner: (Double, Double), lengthOfSide: Double) {
         self.topLeftCorner = topLeftCorner
         self.lengthOfSide = lengthOfSide
@@ -42,7 +43,7 @@ class Square2 {
             lengthOfSide = sqrt(newValue)
         }
     }
-
+    
     init(topLeftCorner: (Double, Double), lengthOfSide: Double) {
         self.topLeftCorner = topLeftCorner
         self.lengthOfSide = lengthOfSide
